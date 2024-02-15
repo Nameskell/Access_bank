@@ -1,9 +1,8 @@
 body {
-  height: 100vh;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
+
 .header {
   height: 15vh;
   display: flex;
@@ -15,29 +14,23 @@ body {
   width: 50%;
 }
 
-.logo1 img{
+.logo1 img {
   height: inherit;
   margin: 0 8px 0 0;
   width: inherit;
 }
 
-.logo2{
+.logo2 {
   width: 50%;
   height: inherit;
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 
-.logo2 img{
+.logo2 img {
   width: inherit;
   height: inherit;
-}
-
-
-.context {
-  height: 90vh;
-  overflow-y: scroll;
 }
 
 .context img {
@@ -54,7 +47,6 @@ body {
   margin: 20px 0;
 }
 
-
 .section2 {
   display: flex;
   justify-content: space-between;
@@ -62,13 +54,28 @@ body {
   background-color: rgb(197, 83, 7);
   font-size: larger;
   color: white;
+  padding-bottom: 40px;
 }
 
-.icons-pack{
+div.section2 div {
+  width: 50%;
+  line-height: 18px;
+}
+
+.text1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.text1 > p {
+  word-break: break-all;
+}
+
+.icons-pack {
   display: flex;
 }
 
-.icons-pack i{
+.icons-pack i {
   margin: 0 2px;
   color: black;
   background-color: white;
@@ -76,14 +83,13 @@ body {
   border-radius: 100%;
 }
 
-.section2 .icons{
+.section2 .icons {
   display: flex;
 }
 
-@media only screen and (max-width:390px),(max-width:600px) {
-
-  .logo2{
-    height:15vh;
+@media only screen and (max-width: 390px), (max-width: 600px) {
+  .logo2 {
+    height: 15vh;
   }
 
   .context img {
@@ -92,13 +98,9 @@ body {
   }
 
   .section2 {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px;
-  font-size:small;
-  }   
-
-  
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: small;
+  }
 }
-
-
