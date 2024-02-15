@@ -1,0 +1,104 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.header {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+
+.logo1 {
+  height: inherit;
+  width: 50%;
+}
+
+.logo1 img{
+  height: inherit;
+  margin: 0 8px 0 0;
+  width: inherit;
+}
+
+.logo2{
+  width: 50%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.logo2 img{
+  width: inherit;
+  height: inherit;
+}
+
+
+.context {
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.context img {
+  height: 60vh;
+  width: 100%;
+}
+
+.context .section1 {
+  padding: 20px;
+  font-size: larger;
+}
+
+.section1 p {
+  margin: 20px 0;
+}
+
+
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(197, 83, 7);
+  font-size: larger;
+  color: white;
+}
+
+.icons-pack{
+  display: flex;
+}
+
+.icons-pack i{
+  margin: 0 2px;
+  color: black;
+  background-color: white;
+  padding: 2.7px;
+  border-radius: 100%;
+}
+
+.section2 .icons{
+  display: flex;
+}
+
+@media only screen and (max-width:390px),(max-width:600px) {
+
+  .logo2{
+    height:15vh;
+  }
+
+  .context img {
+    height: 40vh;
+    width: 100%;
+  }
+
+  .section2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-size:small;
+  }   
+
+  
+}
+
+
